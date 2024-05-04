@@ -30,7 +30,7 @@ $all_users = $user->getAllUsers();
        
 
             <div class="navbar-nav">
-                <span class="navbar-text"><?= $_SESSION['full_name'] ?></span>
+                <span class="navbar-text"><?= $_SESSION['username'] ?></span>
                 <form action="../actions/logout.php" method="post" class="d-flex ms-2">
                     <button type="submit" class="text-danger bg-transparent border-0">
                         Logout
